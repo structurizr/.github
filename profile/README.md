@@ -78,7 +78,7 @@ Workspaces are described using an open JSON data format (see [structurizr/json](
 so it's relatively straightforward to build your own custom tooling to consume that data;
 perhaps for rendering views with your own diagramming tool, or to integrate the data with your internal dashboards and service catalogs.
 
-![Structurizr tooling overview](images/structurizr-overview.jpg)
+![Structurizr tooling overview](profile/images/structurizr-overview.jpg)
 
 Although JSON is an easy data format to work with, using one of the code-based authoring tools (see above) will provide a quicker starting point. For example, you can load a JSON workspace definition using [structurizr/java](https://github.com/structurizr/java) as follows, with the resulting `Workspace` object providing an easy way to navigate/manipulate/translate/export the data:
 
