@@ -1,0 +1,37 @@
+name: Feature request
+description: Create a feature request
+labels:
+  - 'enhancement'
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A description of the feature request.
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:    
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: dropdown
+    id: resolution
+    attributes:
+      label: Resolution
+      options:
+        - I have no budget, please add this feature for free
+        - I'm willing to sponsor/donate to this feature (add details below)
+        - I'm willing to add this feature myself and raise a PR
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: More information
+      description: Please add anything else you think may be useful.
+

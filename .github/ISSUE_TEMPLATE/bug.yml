@@ -1,0 +1,73 @@
+name: Bug report
+description: Create a bug report
+labels:
+  - 'bug'
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A precise and clear description of the bug, including expected and actual results.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: A step-by-step example of how to reproduce the bug.
+      placeholder: |-
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshot
+      description: If the bug is related to a diagram or documentation, please add a screenshot.
+  - type: textarea
+    attributes:
+      label: Code sample
+      description: |-
+        If applicable (e.g. you're using the Structurizr DSL), add a code sample.
+        (any text pasted here will be rendered as a code block)
+      render: text
+  - type: textarea
+    attributes:
+      label: Configuration
+      description: Please list the version/build number(s) of the Structurizr software/library you are using.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low
+        - Minor
+        - Major
+        - Critical
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:    
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: dropdown
+    id: resolution
+    attributes:
+      label: Resolution
+      options:
+        - I have no budget, please fix this for free
+        - I'm willing to sponsor/donate to this fix (add details below)
+        - I'm willing to fix this myself and raise a PR
+    validations:
+      required: true 
+  - type: textarea
+    attributes:
+      label: More information
+      description: Please add anything else you think may be useful.
+

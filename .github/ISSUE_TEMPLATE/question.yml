@@ -1,0 +1,12 @@
+name: Question
+description: Ask a question (this will be converted to a discussion).
+labels:
+  - 'question'
+
+body:
+  - type: textarea
+    attributes:
+      label: Question
+    validations:
+      required: true
+
