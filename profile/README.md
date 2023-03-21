@@ -102,3 +102,14 @@ The easiest way get started is:
 
 - Use the [Structurizr DSL demo page](https://structurizr.com/dsl) to try the DSL and a number of diagram rendering options, without installing any tooling.
 - Use the DSL in conjunction with Structurizr Lite; see [Getting started with Structurizr Lite](https://dev.to/simonbrown/getting-started-with-structurizr-lite-27d0).
+
+## Documentation
+
+Since there are a number of ways to use the Structurizr tooling, there are a number of places to find documentation.
+
+- [Structurizr - Help](https://structurizr.com/help): documentation about the Structurizr browser-based diagrams/documentation/decisions renderer.
+- [Structurizr Lite](https://structurizr.com/share/76352/documentation): installation and configuration.
+- [Structurizr on-premises](https://structurizr.com/share/18571/documentation): installation and configuration.
+- [Structurizr CLI](https://github.com/structurizr/cli#readme): installation and usage.
+- Structurizr DSL: [language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md) and [cookbook](https://github.com/structurizr/dsl/tree/master/docs/cookbook).
+- [Structurizr exporters](https://github.com/structurizr/export#readme): configuration and usage of the PlantUML, C4-PlantUML, Mermaid, DOT, WebSequenceDiagrams, and Ilograph exporters. 

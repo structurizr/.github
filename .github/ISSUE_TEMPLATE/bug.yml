@@ -40,7 +40,6 @@ body:
     attributes:
       label: Severity
       options:
-        - Low
         - Minor
         - Major
         - Critical

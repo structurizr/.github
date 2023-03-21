@@ -6,3 +6,6 @@ contact_links:
   - name: Priority support
     url: https://structurizr.com/help/support
     about: Information about priority support.
+  - name: Documentation
+    url: https://github.com/structurizr#documentation
+    about: Links to documentation for Structurizr tooling.
