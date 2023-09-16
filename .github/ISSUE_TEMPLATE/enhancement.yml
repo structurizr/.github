@@ -25,8 +25,8 @@ body:
     attributes:
       label: Resolution
       options:
-        - I have no budget, please add this feature for free
-        - I'm willing to sponsor/donate to this feature (add details below)
+        - I have no budget and there's no rush, please add this feature for free
+        - I'm willing to pay for this feature (add details below)
         - I'm willing to add this feature myself and raise a PR
     validations:
       required: true 
