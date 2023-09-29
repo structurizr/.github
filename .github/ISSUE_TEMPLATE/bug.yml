@@ -28,7 +28,8 @@ body:
     attributes:
       label: Code sample
       description: |-
-        If applicable (e.g. you're using the Structurizr DSL), add a code sample.
+        If applicable, add a code sample that can be used to reproduce the problem.
+        If you're using the Structurizr DSL, please add a full workspace definition (i.e. a model and views).
         (any text pasted here will be rendered as a code block)
       render: text
   - type: textarea
