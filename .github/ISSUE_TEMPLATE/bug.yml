@@ -48,18 +48,8 @@ body:
       required: true
   - type: dropdown
     id: priority
-    attributes:    
-      label: Priority
-      options:
-        - Low
-        - Medium
-        - High
-    validations:
-      required: true
-  - type: dropdown
-    id: resolution
     attributes:
-      label: Resolution
+      label: Priority
       options:
         - I have no budget and there's no rush, please fix this for free
         - I'm willing to pay for this fix (add details below)

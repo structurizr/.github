@@ -15,16 +15,6 @@ body:
     attributes:    
       label: Priority
       options:
-        - Low
-        - Medium
-        - High
-    validations:
-      required: true
-  - type: dropdown
-    id: resolution
-    attributes:
-      label: Resolution
-      options:
         - I have no budget and there's no rush, please add this feature for free
         - I'm willing to pay for this feature (add details below)
         - I'm willing to add this feature myself and raise a PR
