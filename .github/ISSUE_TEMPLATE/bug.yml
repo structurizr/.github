@@ -53,7 +53,7 @@ body:
       options:
         - I have no budget and there's no rush, please fix this for free
         - I'm willing to pay for this fix (add details below)
-        - I'm willing to fix this myself and raise a PR
+        - I'm willing to fix this myself and raise a PR (please confirm approach first)
     validations:
       required: true 
   - type: textarea
