@@ -6,35 +6,25 @@ labels:
 body:
   - type: textarea
     attributes:
-      label: Description
-      description: A precise and clear description of the bug, including expected and actual results.
+      label: Expected
+      description: What you expect to see.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual
+      description: What you actually see.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: A step-by-step example of how to reproduce the bug.
-      placeholder: |-
-        1. ...
-        2. ...
-        3. ...
+      description: A step-by-step example (including code where applicable) of how to reproduce the bug. If you're using the Structurizr DSL, please add a full workspace definition (i.e. a model and views).
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Screenshot
-      description: If the bug is related to a diagram or documentation, please add a screenshot.
-  - type: textarea
-    attributes:
-      label: Code sample
-      description: |-
-        If applicable, add a code sample that can be used to reproduce the problem.
-        If you're using the Structurizr DSL, please add a full workspace definition (i.e. a model and views).
-        (any text pasted here will be rendered as a code block)
-      render: text
-  - type: textarea
-    attributes:
-      label: Configuration
+      label: Version/build information
       description: Please list the version/build number(s) of the Structurizr software/library you are using.
   - type: dropdown
     id: severity
