@@ -26,6 +26,8 @@ body:
     attributes:
       label: Version/build information
       description: Please list the version/build number(s) of the Structurizr software/library you are using.
+    validations:
+      required: true
   - type: dropdown
     id: severity
     attributes:
