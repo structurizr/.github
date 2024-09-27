@@ -44,6 +44,7 @@ body:
       label: Priority
       options:
         - I have no budget and there's no rush, please fix this for free
+        - I'm a Structurizr Patreon member (add details below or send a message on Patreon with a link to the issue)
         - I'm willing to pay for this fix (add details below)
         - I'm willing to fix this myself and raise a PR (please confirm approach first)
     validations:

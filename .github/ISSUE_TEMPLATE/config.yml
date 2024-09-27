@@ -1,11 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Structurizr Slack
-    url: https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg
-    about: Community support is available via our Slack group, but please do not raise issues on here as they will likely be missed.
-  - name: Priority support
-    url: https://structurizr.com/help/support
-    about: Information about priority support.
   - name: Documentation
-    url: https://structurizr.org/#documentation
-    about: Links to documentation for Structurizr tooling.
+    url: https://docs.structurizr.com/
+    about: Documentation for all Structurizr tooling.
