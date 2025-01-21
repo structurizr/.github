@@ -15,10 +15,9 @@ body:
     attributes:    
       label: Priority
       options:
-        - I have no budget and there's no rush, please add this feature for free
-        - I'm a Structurizr Patreon member (add details below or send a message on Patreon with a link to the issue)
-        - I'm willing to pay for this feature (add details below)
-        - I'm willing to add this feature myself and raise a PR (please confirm approach first)
+        - Low (I have no budget and there's no rush, please fix this for free)
+        - Low (I'm willing to make a pull request - please confirm approach first)
+        - High (we have a commercial support contract with Structurizr Limited)
     validations:
       required: true 
   - type: textarea
