@@ -24,8 +24,8 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Version/build information
-      description: Please list the version/build number(s) of the Structurizr software/library you are using.
+      label: Version
+      description: The version number of the Structurizr software/library you are using.
     validations:
       required: true
   - type: dropdown
@@ -38,16 +38,6 @@ body:
         - Critical
     validations:
       required: true
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - Low (I have no budget and there's no rush - please fix this for free)
-        - Low (I'm willing to make a pull request - please add a comment below summarising your approach before making a PR)
-        - High (we have a paid support contract - please e-mail us with your support contract details)
-    validations:
-      required: true 
   - type: textarea
     attributes:
       label: More information
